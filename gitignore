@@ -1,0 +1,23 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Private/raw financial datasets and generated models
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+
+# OS and editor files
+.DS_Store
+.vscode/
